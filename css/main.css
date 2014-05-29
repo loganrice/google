@@ -1,0 +1,173 @@
+@import url('reset.css');
+
+/** {
+	font-family: arial;
+	border: 1px solid black;
+}*/
+
+html, body {
+	height: 100%;
+	margin: 0;
+}
+.page-wrap {
+	min-height: 100%;
+	margin-bottom: 39px;
+}
+
+.page-wrap:after {
+	content: "";
+	display: block;
+}
+
+.acct {
+	text-align: right;
+	margin: 24px;
+}
+
+.login-btn {
+	font-weight: bold;
+	width: 43px;
+	padding: 8px 14px;
+	line-height: 28px;
+	font-size: 13px;
+	color: white;
+	border-radius: 2px;
+	background-image: -webkit-linear-gradient(top, rgb(67, 135, 253), rgb(70, 131, 234));
+
+}
+
+.login-btn:hover {
+	box-shadow: 0 1px 0 rgba(0,0,0,.15)
+}
+
+
+.acct-links {
+	text-decoration: none;
+	color: #404040;
+	margin-right: 9px;
+}
+
+.acct-links:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+.grid {
+	width: 17px;
+}
+
+.logo {
+	width: 207px;
+	display: block;
+	margin: auto;
+	margin-top: 125px;
+	margin-bottom: 24px;
+
+}
+
+.search {
+	height: 25px;
+	width: 572px;
+	display: block;
+	margin: auto;
+	padding: 0;
+	border: 1px solid #cdcdcd;
+}
+
+.search:hover {
+	border: 1px solid rgba(0,0,0,.3);
+}
+
+.search:active {
+	border: 1px solid #4285f4;
+}
+
+input:focus {
+	border: 1px solid #4285f4;
+	outline-width: 0;
+}
+
+input {
+	width: 90%;
+	height: 100%;
+	display: inline;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+.microphone-wrapper {
+	float: right;
+}
+.microphone {
+	height: 25px;
+}
+
+.button-wrapper {
+	margin: 12px auto;
+	width: 235px;
+}
+
+button {
+	border-radius: 2px;
+	color: #222222;
+	line-height: 29px;
+	font-weight: bold;
+	border: 1px solid rgba(0, 0, 0, 0.0980392);
+	background-image: -webkit-linear-gradient(top, rgb(245, 245, 245), rgb(241, 241, 241));
+}
+
+button:hover {
+	border: 1px solid rgb(198, 198, 198);
+	box-shadow: rgba(0, 0, 0, 0.14902) 0px 1px 0px 0px;
+}
+
+#btn-one {
+	min-width: 96px;
+}
+
+#btn-two {
+	min-width: 114px;
+}
+
+footer {
+	width: 100%;
+	/*position: fixed;*/
+	background-color: #f2f2f2;
+	/*margin: 0;*/
+	/*bottom: 0;*/
+	padding-top: 15px;
+}
+
+footer, .page-wrap:after {
+	height: 39px;
+}
+
+.footer-links {
+	display: inline;
+	color: #666666;
+	text-decoration: none;
+}
+.footer-links  li {
+	display: inline;
+}
+
+footer > ul {
+	display: inline;
+}
+
+.footer-links:hover {
+	text-decoration: underline;
+}
+
+.right-col {
+	float: right;
+}
+
+.right-col > li {
+	margin-right: 24px;
+}
+
+.left-col > li {
+	margin-right: 24px;
+}
