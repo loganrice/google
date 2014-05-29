@@ -33,7 +33,7 @@ html, body {
 	color: white;
 	border-radius: 2px;
 	background-image: -webkit-linear-gradient(top, rgb(67, 135, 253), rgb(70, 131, 234));
-
+	background-image-size: 100%;
 }
 
 .login-btn:hover {
@@ -72,6 +72,10 @@ html, body {
 	margin: auto;
 	padding: 0;
 	border: 1px solid #cdcdcd;
+	background-image: url('../images/microphone.png');
+	background-repeat: no-repeat;
+	background-size: 20px 27px;
+	background-position: right center;
 }
 
 .search:hover {
@@ -96,12 +100,6 @@ input {
 	border: none;
 }
 
-.microphone-wrapper {
-	float: right;
-}
-.microphone {
-	height: 25px;
-}
 
 .button-wrapper {
 	margin: 12px auto;
