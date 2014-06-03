@@ -168,4 +168,5 @@ footer > ul {
 
 .left-col > li {
 	margin-right: 24px;
+	float: left;
 }
